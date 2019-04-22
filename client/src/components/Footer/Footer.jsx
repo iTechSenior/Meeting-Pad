@@ -33,7 +33,13 @@ class Footer extends React.Component {
       activeUnit: ''
     }
     
-    this.unitActivated = this.unitActivated.bind(this)
+    // this.unitActivated = this.unitActivated.bind(this)
+  }
+
+  unitActivated = (unitName) => {
+    console.log('aktiviran unit: ' + unitname)
+    this.props.setUnit(unitname)
+    this.setState({activeUnit: unitName})
   }
 
   componentWillMount() {
@@ -42,11 +48,11 @@ class Footer extends React.Component {
     }
   }
 
-  unitActivated(unitName) {
-    console.log('aktiviran unit: '+unitName)
-    this.props.setUnit(unitName)
-    this.setState({activeUnit: unitName})
-  }
+  // unitActivated(unitName) {
+  //   console.log('aktiviran unit: '+unitName)
+  //   this.props.setUnit(unitName)
+  //   this.setState({activeUnit: unitName})
+  // }
   
   addColorIfActive(unit) {
     return (this.state.activeUnit === unit ? activeStyle : {})
