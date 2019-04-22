@@ -1,0 +1,77 @@
+{
+  "name": "material-dashboard-react",
+  "version": "1.5.0",
+  "description": "Material Dashboard React. Coded by Creative Tim",
+  "private": false,
+  "main": "dist/index.js",
+  "dependencies": {
+    "@material-ui/core": "3.1.0",
+    "@material-ui/icons": "3.0.1",
+    "@types/googlemaps": "3.30.13",
+    "@types/markerclustererplus": "2.1.33",
+    "ajv": "^5.0.0",
+    "axios": "^0.18.0",
+    "chartist": "0.10.1",
+    "classnames": "2.2.6",
+    "cross-env": "^5.2.0",
+    "history": "^4.7.2",
+    "npm-run-all": "4.1.3",
+    "perfect-scrollbar": "1.4.0",
+    "pspdfkit": "https://customers.pspdfkit.com/npm/TRIAL-LWNdnuLEmHPwMRDOWkiFnvrAfqVgMp1wHDkWHahPzy4a80_8rpG8uxq2sUXbyueP-UhKpouucrsuYatKQ0s-wA/latest.tar.gz",
+    "react": "16.5.2",
+    "react-bootstrap": "^1.0.0-beta.5",
+    "react-chartist": "0.13.1",
+    "react-dom": "16.5.2",
+    "react-google-maps": "9.4.5",
+    "react-items-carousel": "^2.3.0",
+    "react-redux": "^5.0.7",
+    "react-redux-toastr": "^7.4.7",
+    "react-router-dom": "4.3.1",
+    "react-router-redux": "^4.0.8",
+    "react-scripts": "1.1.5",
+    "react-swipeable-views": "0.12.17",
+    "redux": "^4.0.0",
+    "redux-logger": "^2.6.1",
+    "redux-persist": "^5.10.0",
+    "redux-promise": "^0.5.3",
+    "redux-thunk": "^2.3.0"
+  },
+  "scripts": {
+    "start": "cross-env PUBLIC_URL=http://localhost:3000 NODE_PATH=./src REACT_APP_PSPDFKIT_LICENSE_KEY='UaH3yUxXbg8Wi03EbkOJ3ls8x5PgESFP4_YppNUJ5on_ONozNcHoXQeVZ-gyYcuoSTrYjR3QMjmyoLdqkaMn5HQ3I850QyjNnzhsuZV6-luYuSzXF5u9ovjJsWdSihOe9zlFbB68LRCCNdX3z_FNNbteUbH7zh197GdN5aUVcMGIDOzJ7XAzDaBAVY0xip4wXbZODWweNLalzsM21SroNgFNxz11JPArf7X8JLyFtTr7DKDcpY2mhKdvgtt6dRS_JsMIdbNcMBZYLmuUMNQ14gJckfIWQEwnEGs4rU6Qsm9-HGXvjMRClQkGCc2OMFRbeqmjjgG3evQ2MVkkCVKiMt0abqBYgzXqt3iRsDtQ4qdz1Ode7SiZ-m8_VhWtjYPOSsWXu9i6CDDxNpRF7Za8jwtSmblIO5Iy1DbqkerbEL8pndQ8cMckPIA_yzs5AorF' react-scripts start",
+    "build": "NODE_PATH=./src react-scripts build",
+    "test": "wdio",
+    "eject": "react-scripts eject",
+    "install:clean": "rm -rf node_modules/ && rm -rf package-lock.json && npm install && npm start",
+    "lint:check": "eslint . --ext=js,jsx;  exit 0",
+    "lint:fix": "eslint . --ext=js,jsx --fix;  exit 0",
+    "build-package": "babel src --out-dir dist",
+    "e2e": "npm test -- wdio.conf.dev.js "
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/creativetimofficial/material-dashboard-react.git"
+  },
+  "keywords": [],
+  "author": "Creative Tim <hello@creative-tim.com> (https://www.creative-tim.com/)",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/creativetimofficial/material-dashboard-react/issues"
+  },
+  "homepage": "https://creativetimofficial.github.io/material-dashboard-react/#/dashboard",
+  "optionalDependencies": {
+    "babel-eslint": "7.2.3",
+    "eslint": "4.19.1",
+    "eslint-config-prettier": "3.0.1",
+    "eslint-plugin-prettier": "2.6.2",
+    "eslint-plugin-react": "7.11.1",
+    "prettier": "1.14.3"
+  },
+  "devDependencies": {
+    "babel-cli": "6.26.0",
+    "babel-plugin-module-resolver": "3.1.1",
+    "babel-plugin-import-rename": "1.0.1",
+    "babel-plugin-transform-object-rest-spread": "6.26.0",
+    "babel-plugin-transform-react-jsx": "6.24.1",
+    "babel-preset-es2015": "6.24.1"
+  }
+}

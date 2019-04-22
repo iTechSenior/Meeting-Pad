@@ -1,0 +1,30 @@
+{
+  "name": "mohit",
+  "version": "0.0.0",
+  "private": true,
+  "scripts": {
+    "start": "node ./bin/www REACT_APP_PSPDFKIT_LICENSE_KEY='UaH3yUxXbg8Wi03EbkOJ3ls8x5PgESFP4_YppNUJ5on_ONozNcHoXQeVZ-gyYcuoSTrYjR3QMjmyoLdqkaMn5HQ3I850QyjNnzhsuZV6-luYuSzXF5u9ovjJsWdSihOe9zlFbB68LRCCNdX3z_FNNbteUbH7zh197GdN5aUVcMGIDOzJ7XAzDaBAVY0xip4wXbZODWweNLalzsM21SroNgFNxz11JPArf7X8JLyFtTr7DKDcpY2mhKdvgtt6dRS_JsMIdbNcMBZYLmuUMNQ14gJckfIWQEwnEGs4rU6Qsm9-HGXvjMRClQkGCc2OMFRbeqmjjgG3evQ2MVkkCVKiMt0abqBYgzXqt3iRsDtQ4qdz1Ode7SiZ-m8_VhWtjYPOSsWXu9i6CDDxNpRF7Za8jwtSmblIO5Iy1DbqkerbEL8pndQ8cMckPIA_yzs5AorF'",
+    "mern": "react-scripts start node ./bin/www"
+  },
+  "dependencies": {
+    "app-root-path": "^2.1.0",
+    "bcryptjs": "^2.4.3",
+    "cookie-parser": "~1.4.3",
+    "cors": "^2.8.5",
+    "debug": "~2.6.9",
+    "dotenv": "^6.2.0",
+    "ejs": "~2.5.7",
+    "express": "~4.16.0",
+    "file-encryptor": "^0.1.1",
+    "http-errors": "~1.6.2",
+    "jsonwebtoken": "^8.4.0",
+    "mongoose": "^5.4.9",
+    "mongoose-unique-validator": "^2.0.2",
+    "morgan": "~1.9.0",
+    "multer": "^1.4.1",
+    "nodemon": "^1.18.10",
+    "office-to-pdf": "^4.0.0",
+    "passport": "^0.4.0",
+    "passport-jwt": "^4.0.0"
+  }
+}
